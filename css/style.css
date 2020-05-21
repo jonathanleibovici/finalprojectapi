@@ -1,0 +1,70 @@
+body{
+    background-color: lightblue;
+    /*background-image:url(/images/Old-Books-on-Shelves.jpeg);*/
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.hover-invert:not(.active)hover{
+    color: white;
+    
+}
+img{
+    max-height: 500px;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.jumbotron{
+
+    border-radius: 50%;
+    background-color: orange;
+    
+
+}
+.list-group li 
+{
+    background-color: lightblue;
+   
+}
+ .card-body
+ {
+
+ background-color: lightblue;
+}
+
+.hiddenform{
+        display:none;
+        
+    }
+
+
+.formDiv {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  align-content: center;
+}
+
+.formDiv > * {
+  width: 80vw;
+  text-align: center;
+  margin: 0.5em;
+}
+.formDiv button {
+  width: 30vw;
+  margin: auto;
+}
+
+.formDivInputs {
+  margin: 0.5em;
+}
